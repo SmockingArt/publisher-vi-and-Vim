@@ -11,7 +11,7 @@ THÉMATIQUES : Table of contents
 
 🧭 le : 2023-05-16 
 
-_**Table of Contents**_ : [Saisie](#Saisie) | [Sortie et sauvegarde](#Sortie et sauvegarde) | [Déplacement](#Déplacement) | [Correction](#Correction) | [Recherche simple](#Recherchesimple) | [Copier-coller](#Copier-coller) | [Autres commandes](#Autres commandes)
+_**Table of Contents**_ : [Saisie](#Saisie) | [Sortie et sauvegarde](#Sortie-et-sauvegarde) | [Déplacement](#Déplacement) | [Correction](#Correction) | [Recherche simple](#Recherche-simple) | [Copier-coller](#Copier-coller) | [Autres commandes](#Autres-commandes)
 
 ---
 
