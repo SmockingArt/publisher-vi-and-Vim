@@ -27,6 +27,7 @@ Les actions suivantes sont en mode commande. Elles doivent être précédées d�
 |**I**|Insertion de texte en début de ligne.|
 |**o**|Ajout d’une ligne sous la ligne actuelle.|
 |**O**|Insertion d’une ligne au-dessus de la ligne actuelle.|
+|**R**|Remplacer des caractères.|
 
 ### Sortie et sauvegarde
 
@@ -57,9 +58,11 @@ Pour rappel, les **:** signifient que la commande se tape en ligne de commande
 |**b**|Aller au mot précédent (back).|
 |**[Ctrl] f**|Avance d’un écran (Forward).|
 |**[Ctrl] b**|Recule d’un écran (Backward).|
+|**[Ctrl] g**|Aaffiche la position dans le fichier et l'éta de celui-ci.|
 |**G**|Dernière ligne du fichier (go).|
-|**<n>G**|Saute à la ligne « n » (ex : 10G va à la 10ème ligne).|
+|**nG**|Saute à la ligne « n » (ex : 10G va à la 10ème ligne).|
 |**:<n>**|Idem ( :10 va à la 10ème ligne).|
+|**%**| Lorsque le curseur est sur (,),[,],{,} déplace sur le caractère correspondant.|
 
 ### Correction
 
@@ -93,7 +96,7 @@ En appuyant sur [n] (commande n), la recherche continue. La commande N (appui
 |**d**|Couper (Déplacer ou delete).|
 |**c**|Couper (cut), mais vi reste en mode édition.|
 |**p**|Coller (put below).|
-
+|**u**|Annule la saisie.|
 Les actions suivantes sont possibles en mode commande, sans sélection préalable :
 
 | Commande | Description                                   |
@@ -108,7 +111,18 @@ Les actions suivantes sont possibles en mode commande, sans sélection préalabl
 
 ### Autres commandes
 
+| Commande | Description                                   |
 |---|---|
 |**:r fic**|Insère le contenu de fic à partir de la position courante du curseur.|
 |**:! cmd**|Exécute la commande. Appuyez sur [Entrée] pour revenir sous vi.|
 |**:r! cmd**|Le résultat de la commande est inséré à l’endroit actuel.|
+
+| Commande | Description                                   |
+|---|---|
+| :help w | |
+| :help c_CTRL-D | |
+| :help c_<T | |
+| :help insert-index | |
+| :help user-manual | |
+| F1 | |
+
