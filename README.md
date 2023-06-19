@@ -97,6 +97,7 @@ En appuyant sur [n] (commande n), la recherche continue. La commande N (appui
 |**c**|Couper (cut), mais vi reste en mode édition.|
 |**p**|Coller (put below).|
 |**u**|Annule la saisie.|
+
 Les actions suivantes sont possibles en mode commande, sans sélection préalable :
 
 | Commande | Description                                   |
